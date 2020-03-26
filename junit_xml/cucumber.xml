@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="19" time="946.378216">
+<testcase classname="Swag labs" name="Login to Swag labs with valid credentials" time="66.245763">
+<system-out><![CDATA[Given the user launched the chrome browser..................................passed
+When the user opens Swaglabs homepage.......................................passed
+When the user enters valid "standard_user" and "secret_sauce"...............passed
+When click the login button.................................................passed
+Then Assert if the product_label is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Login to Swag labs with valid credentials 2" time="17.221026">
+<system-out><![CDATA[Given the user launched the chrome browser..................................passed
+When the user opens Swaglabs homepage.......................................passed
+When the user enters valid "problem_user" and "secret_sauce"................passed
+When click the login button.................................................passed
+Then Assert if the product_label is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Login to Swag labs with valid credentials 3" time="37.802742">
+<system-out><![CDATA[Given the user launched the chrome browser..................................passed
+When the user opens Swaglabs homepage.......................................passed
+When the user enters valid "performance_glitch_user" and "secret_sauce".....passed
+When click the login button.................................................passed
+Then Assert if the product_label is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Login to Swag labs with invalid credentials" time="9.334128">
+<system-out><![CDATA[Given user launched the chrome browser......................................passed
+When user opens swaglabs homepage...........................................passed
+When user enters invalid  "standard" and "secrete"..........................passed
+When the user clicks the login button.......................................passed
+Then Assert if the error message is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Login to Swag labs with invalid credentials 2" time="11.747644">
+<system-out><![CDATA[Given user launched the chrome browser......................................passed
+When user opens swaglabs homepage...........................................passed
+When user enters invalid  "problem" and "secret_sauce"......................passed
+When the user clicks the login button.......................................passed
+Then Assert if the error message is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Sorting in the order of A-Z" time="38.341654">
+<system-out><![CDATA[Given Launching the chrome browser..........................................passed
+When launching the application..............................................passed
+When click on Name A to Z...................................................passed
+When compare the first two item names.......................................passed
+Then assert if the two names are in alpahbetical order......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Sorting in the order of Z-A" time="32.201906">
+<system-out><![CDATA[Given launching the chrome browser..........................................passed
+When Launching the application..............................................passed
+When click on Name Z to A...................................................passed
+When compare the first two item names.......................................passed
+Then Assert if the two names are in alpahbetical order of Z-A...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Sorting in the order of low to high price" time="35.191326">
+<system-out><![CDATA[Given LAunching the chrome browser..........................................passed
+When LAunching the application..............................................passed
+When click on Name price low to high........................................passed
+When compare the first two item prices......................................passed
+Then Assert if the two item prices are in ascending order...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Sorting in the order of high to low price" time="41.077943">
+<system-out><![CDATA[Given LAUnching the chrome browser..........................................passed
+When LAUnching the application..............................................passed
+When click on Name price high to low........................................passed
+When compare the first two item prices......................................passed
+Then Assert if the two item prices are in descending order..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Adding to cart" time="61.73959">
+<system-out><![CDATA[Given LAUNching the browser.................................................passed
+When LAUNching the application..............................................passed
+When cLick on ADD TO CART of selected item..................................passed
+Then Assert if the item is added in the cart................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Remove from cart" time="39.238591">
+<system-out><![CDATA[Given LAUNChing the browser.................................................passed
+When LAUNChing the application..............................................passed
+When cLick REMOVE of selected item which is carted..........................passed
+Then Assert if the item is removed from the cart............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Logout of Application" time="28.510056">
+<system-out><![CDATA[Given LAUNCHing the browser.................................................passed
+When LAUNCHing the application..............................................passed
+When Click on Menu bar......................................................passed
+When Click on Logout button.................................................passed
+Then Assert if the application is showing the login page....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Navigating to Saucelabs" time="183.447548">
+<system-out><![CDATA[Given LAUNCHIng the browser.................................................passed
+When LAUNCHIng the application..............................................passed
+When CLick on menu bar......................................................passed
+When Click on About.........................................................passed
+Then Assert if the page is navigating to saucelabs..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Searching Invalid information" time="58.111315">
+<system-out><![CDATA[Given LAUNCHINg the browser.................................................passed
+When LAUNCHINg the application..............................................passed
+When CLIck on search Symbol.................................................passed
+When Enter the invalid info and click Enter from keyboard...................passed
+Then Assert True if it is Displaying No Results found.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Searching valid information" time="57.692936">
+<system-out><![CDATA[Given LAUNCHING the browser.................................................passed
+When LAUNCHING the application..............................................passed
+When click on search Symbol.................................................passed
+When Enter the valid info and click Enter from keyboard.....................passed
+Then Assert True if it is not  Displaying No Results found..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Accepting valid mail ID format  to join" time="48.871868">
+<system-out><![CDATA[Given LAUNCHING The browser.................................................passed
+When LAUNCHING The application..............................................passed
+When enter the valid email format  and click on submit button...............passed
+Then Assert if it is displaying Thank you message...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Accepting Invalid mail format ID to join" time="45.915884">
+<system-out><![CDATA[Given LAUNCHING THe browser.................................................passed
+When LAUNCHING THe application..............................................passed
+When enter the Invalid email format  and click on submit button.............passed
+Then Assert if it is displaying an error message............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Switching to new window" time="65.281457">
+<system-out><![CDATA[Given LAUNCHING THE browser.................................................passed
+When LAUNCHING THE Application..............................................passed
+When click on resources.....................................................passed
+When click on selenium......................................................passed
+Then Assert if it is Switching to the new tab...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Swag labs" name="Displaying the copyright" time="68.404839">
+<system-out><![CDATA[Given LAUNCHING THE Browser.................................................passed
+When LAUNCHING THE APPlication..............................................passed
+Then Assert if it is displaying the copyright in the footer section.........passed
+]]></system-out>
+</testcase>
+</testsuite>
